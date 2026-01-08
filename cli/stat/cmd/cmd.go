@@ -96,7 +96,16 @@ var Cmd = &cobra.Command{
 			period = "week"
 		}
 
-		_, aggregatedStats, err := aggregateDurations(bs, period)
+		tracking, _, ab, err := block.GetActive(rt.Database)
+		rt.NilOrDie(err)
+
+		var activeBlockKey *string
+		if tracking {
+			k := ab.GetKey()
+			activeBlockKey = &k
+		}
+
+		_, aggregatedStats, err := aggregateDurations(bs, period, activeBlockKey)
 		rt.NilOrDie(err)
 
 		switch flagFormat {
@@ -127,6 +136,7 @@ func getMonthKey(timestamp time.Time) string {
 func aggregateDurations(
 	bs []*block.Block,
 	timeframe string,
+	activeBlockKey *string,
 ) (
 	map[string]map[string][]string,
 	map[string]map[string]map[string]time.Duration,
@@ -141,6 +151,10 @@ func aggregateDurations(
 
 	for _, b := range bs {
 		duration := b.TimestampEnd.Sub(b.TimestampStart)
+
+		if activeBlockKey != nil && b.GetKey() == *activeBlockKey {
+			duration = time.Since(b.TimestampStart)
+		}
 
 		var key string
 		switch timeframe {
