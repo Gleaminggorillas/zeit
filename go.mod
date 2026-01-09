@@ -1,4 +1,4 @@
-module github.com/mrusme/zeit
+module xn--gckvb8fzb.com/zeit
 
 go 1.25.1
 

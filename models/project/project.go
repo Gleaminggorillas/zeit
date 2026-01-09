@@ -3,10 +3,10 @@ package project
 import (
 	"strings"
 
-	"github.com/mrusme/zeit/database"
-	"github.com/mrusme/zeit/errs"
-	"github.com/mrusme/zeit/helpers/out"
-	"github.com/mrusme/zeit/helpers/val"
+	"xn--gckvb8fzb.com/zeit/database"
+	"xn--gckvb8fzb.com/zeit/errs"
+	"xn--gckvb8fzb.com/zeit/helpers/out"
+	"xn--gckvb8fzb.com/zeit/helpers/val"
 )
 
 type Project struct {

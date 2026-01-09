@@ -7,10 +7,10 @@ import (
 	"strings"
 
 	"github.com/adrg/xdg"
-	"github.com/mrusme/zeit/database"
-	"github.com/mrusme/zeit/helpers/log"
-	"github.com/mrusme/zeit/helpers/out"
-	"github.com/mrusme/zeit/models/config"
+	"xn--gckvb8fzb.com/zeit/database"
+	"xn--gckvb8fzb.com/zeit/helpers/log"
+	"xn--gckvb8fzb.com/zeit/helpers/out"
+	"xn--gckvb8fzb.com/zeit/models/config"
 	"github.com/spf13/cobra"
 )
 

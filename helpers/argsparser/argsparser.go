@@ -4,10 +4,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mrusme/zeit/errs"
-	"github.com/mrusme/zeit/helpers/log"
-	"github.com/mrusme/zeit/helpers/timestamp"
-	"github.com/mrusme/zeit/helpers/val"
+	"xn--gckvb8fzb.com/zeit/errs"
+	"xn--gckvb8fzb.com/zeit/helpers/log"
+	"xn--gckvb8fzb.com/zeit/helpers/timestamp"
+	"xn--gckvb8fzb.com/zeit/helpers/val"
 )
 
 type ParsedArgs struct {

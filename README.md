@@ -11,7 +11,7 @@ _Zeit, erfassen_. A command line tool for tracking time spent on tasks &
 projects.
 
 [Download the latest version for macOS, Linux, FreeBSD, NetBSD, OpenBSD & Plan9
-here](https://github.com/mrusme/zeit/releases/latest).
+here](https://xn--gckvb8fzb.com/zeit/releases/latest).
 
 ## Build
 
@@ -81,7 +81,7 @@ _Zeit_'s data structure contains of the following key entities:
 
 A `block` references a `project` and a `task` by _SID_. A _SID_ is a _simplified
 ID_ that
-[matches a specific regex](https://github.com/mrusme/zeit/blob/master/helpers/val/val.go#L13)
+[matches a specific regex](https://xn--gckvb8fzb.com/zeit/blob/master/helpers/val/val.go#L13)
 and is auto-generated e.g. during import from a project's/task's display name,
 by removing whitespaces and other special characters.
 

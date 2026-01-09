@@ -5,7 +5,7 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/mrusme/zeit/helpers/out"
+	"xn--gckvb8fzb.com/zeit/helpers/out"
 	"github.com/spf13/cobra"
 )
 

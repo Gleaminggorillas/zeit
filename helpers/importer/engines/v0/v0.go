@@ -5,11 +5,11 @@ import (
 	"os"
 	"time"
 
-	"github.com/mrusme/zeit/database"
-	"github.com/mrusme/zeit/helpers/val"
-	"github.com/mrusme/zeit/models/block"
-	"github.com/mrusme/zeit/models/project"
-	"github.com/mrusme/zeit/models/task"
+	"xn--gckvb8fzb.com/zeit/database"
+	"xn--gckvb8fzb.com/zeit/helpers/val"
+	"xn--gckvb8fzb.com/zeit/models/block"
+	"xn--gckvb8fzb.com/zeit/models/project"
+	"xn--gckvb8fzb.com/zeit/models/task"
 )
 
 type V0 struct {

@@ -6,13 +6,13 @@ import (
 	"slices"
 	"time"
 
-	"github.com/mrusme/zeit/database"
-	"github.com/mrusme/zeit/errs"
-	"github.com/mrusme/zeit/helpers/argsparser"
-	"github.com/mrusme/zeit/helpers/out"
-	"github.com/mrusme/zeit/helpers/timestamp"
-	"github.com/mrusme/zeit/models/block"
-	"github.com/mrusme/zeit/runtime"
+	"xn--gckvb8fzb.com/zeit/database"
+	"xn--gckvb8fzb.com/zeit/errs"
+	"xn--gckvb8fzb.com/zeit/helpers/argsparser"
+	"xn--gckvb8fzb.com/zeit/helpers/out"
+	"xn--gckvb8fzb.com/zeit/helpers/timestamp"
+	"xn--gckvb8fzb.com/zeit/models/block"
+	"xn--gckvb8fzb.com/zeit/runtime"
 	"github.com/spf13/cobra"
 )
 

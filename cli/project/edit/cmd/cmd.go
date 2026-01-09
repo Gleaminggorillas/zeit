@@ -1,10 +1,10 @@
 package projectEditCmd
 
 import (
-	"github.com/mrusme/zeit/cli/project/shared"
-	"github.com/mrusme/zeit/helpers/out"
-	"github.com/mrusme/zeit/models/project"
-	"github.com/mrusme/zeit/runtime"
+	"xn--gckvb8fzb.com/zeit/cli/project/shared"
+	"xn--gckvb8fzb.com/zeit/helpers/out"
+	"xn--gckvb8fzb.com/zeit/models/project"
+	"xn--gckvb8fzb.com/zeit/runtime"
 	"github.com/spf13/cobra"
 )
 

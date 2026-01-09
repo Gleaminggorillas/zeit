@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/mrusme/zeit/cli/cmd"
+	"xn--gckvb8fzb.com/zeit/cli/cmd"
 )
 
 func main() {

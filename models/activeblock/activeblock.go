@@ -1,7 +1,7 @@
 package activeblock
 
 import (
-	"github.com/mrusme/zeit/database"
+	"xn--gckvb8fzb.com/zeit/database"
 )
 
 const KEY string = "activeblock"

@@ -4,14 +4,14 @@ import (
 	"encoding/json"
 	"time"
 
-	projectEditCmd "github.com/mrusme/zeit/cli/project/edit/cmd"
-	"github.com/mrusme/zeit/cli/project/shared"
-	"github.com/mrusme/zeit/database"
-	"github.com/mrusme/zeit/helpers/out"
-	"github.com/mrusme/zeit/models/block"
-	"github.com/mrusme/zeit/models/project"
-	"github.com/mrusme/zeit/models/task"
-	"github.com/mrusme/zeit/runtime"
+	projectEditCmd "xn--gckvb8fzb.com/zeit/cli/project/edit/cmd"
+	"xn--gckvb8fzb.com/zeit/cli/project/shared"
+	"xn--gckvb8fzb.com/zeit/database"
+	"xn--gckvb8fzb.com/zeit/helpers/out"
+	"xn--gckvb8fzb.com/zeit/models/block"
+	"xn--gckvb8fzb.com/zeit/models/project"
+	"xn--gckvb8fzb.com/zeit/models/task"
+	"xn--gckvb8fzb.com/zeit/runtime"
 	"github.com/spf13/cobra"
 )
 

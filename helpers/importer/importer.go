@@ -3,9 +3,9 @@ package importer
 import (
 	"os"
 
-	"github.com/mrusme/zeit/database"
-	v0 "github.com/mrusme/zeit/helpers/importer/engines/v0"
-	v1 "github.com/mrusme/zeit/helpers/importer/engines/v1"
+	"xn--gckvb8fzb.com/zeit/database"
+	v0 "xn--gckvb8fzb.com/zeit/helpers/importer/engines/v0"
+	v1 "xn--gckvb8fzb.com/zeit/helpers/importer/engines/v1"
 )
 
 type ImportFileType string

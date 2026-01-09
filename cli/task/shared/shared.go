@@ -1,8 +1,8 @@
 package shared
 
 import (
-	"github.com/mrusme/zeit/models/task"
-	"github.com/mrusme/zeit/runtime"
+	"xn--gckvb8fzb.com/zeit/models/task"
+	"xn--gckvb8fzb.com/zeit/runtime"
 	"github.com/spf13/cobra"
 )
 

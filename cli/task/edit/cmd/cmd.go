@@ -3,10 +3,10 @@ package taskEditCmd
 import (
 	"strings"
 
-	"github.com/mrusme/zeit/cli/task/shared"
-	"github.com/mrusme/zeit/helpers/out"
-	"github.com/mrusme/zeit/models/task"
-	"github.com/mrusme/zeit/runtime"
+	"xn--gckvb8fzb.com/zeit/cli/task/shared"
+	"xn--gckvb8fzb.com/zeit/helpers/out"
+	"xn--gckvb8fzb.com/zeit/models/task"
+	"xn--gckvb8fzb.com/zeit/runtime"
 	"github.com/spf13/cobra"
 )
 

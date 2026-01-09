@@ -2,7 +2,7 @@ package config
 
 import (
 	"github.com/google/uuid"
-	"github.com/mrusme/zeit/database"
+	"xn--gckvb8fzb.com/zeit/database"
 )
 
 const KEY string = "config"

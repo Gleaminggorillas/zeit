@@ -1,8 +1,8 @@
 package versionCmd
 
 import (
-	"github.com/mrusme/zeit/helpers/out"
-	"github.com/mrusme/zeit/runtime"
+	"xn--gckvb8fzb.com/zeit/helpers/out"
+	"xn--gckvb8fzb.com/zeit/runtime"
 	"github.com/spf13/cobra"
 )
 

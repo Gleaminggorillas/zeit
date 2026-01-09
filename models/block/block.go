@@ -5,11 +5,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mrusme/zeit/database"
-	"github.com/mrusme/zeit/errs"
-	"github.com/mrusme/zeit/helpers/argsparser"
-	"github.com/mrusme/zeit/helpers/val"
-	"github.com/mrusme/zeit/models/activeblock"
+	"xn--gckvb8fzb.com/zeit/database"
+	"xn--gckvb8fzb.com/zeit/errs"
+	"xn--gckvb8fzb.com/zeit/helpers/argsparser"
+	"xn--gckvb8fzb.com/zeit/helpers/val"
+	"xn--gckvb8fzb.com/zeit/models/activeblock"
 )
 
 type Block struct {

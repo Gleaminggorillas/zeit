@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/go-playground/validator/v10"
-	"github.com/mrusme/zeit/errs"
+	"xn--gckvb8fzb.com/zeit/errs"
 )
 
 const (

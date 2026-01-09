@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/mrusme/zeit/helpers/log"
+	"xn--gckvb8fzb.com/zeit/helpers/log"
 )
 
 type TestData struct {

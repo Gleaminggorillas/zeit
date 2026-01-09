@@ -5,13 +5,13 @@ import (
 	"os"
 	"strings"
 
-	"github.com/mrusme/zeit/database"
-	"github.com/mrusme/zeit/errs"
-	"github.com/mrusme/zeit/models/activeblock"
-	"github.com/mrusme/zeit/models/block"
-	"github.com/mrusme/zeit/models/config"
-	"github.com/mrusme/zeit/models/project"
-	"github.com/mrusme/zeit/models/task"
+	"xn--gckvb8fzb.com/zeit/database"
+	"xn--gckvb8fzb.com/zeit/errs"
+	"xn--gckvb8fzb.com/zeit/models/activeblock"
+	"xn--gckvb8fzb.com/zeit/models/block"
+	"xn--gckvb8fzb.com/zeit/models/config"
+	"xn--gckvb8fzb.com/zeit/models/project"
+	"xn--gckvb8fzb.com/zeit/models/task"
 )
 
 type V1 struct {
